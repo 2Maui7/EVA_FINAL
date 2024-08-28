@@ -46,7 +46,7 @@ class EstudianteController extends Controller
             'carrera' => 'required|string|max:25',
             'semestre' => 'required|string|max:25',
             'notas' => 'required',
-        ]);
+        ]); 
         $estudiante->update($request->all());
         return redirect()->route('estudiantes.index')->with('success', 'El producto se modificado correctamente');
     }

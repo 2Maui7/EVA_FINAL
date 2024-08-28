@@ -334,18 +334,18 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Products',
-            'url' => 'products',
+            'text' => 'Empleado',
+            'url' => 'employees',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Estudiantes',
-            'url' => 'estudiantes',
+            'text' => 'Departamentos',
+            'url' => 'departments',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Registro',
-            'url' => 'registros',
+            'text' => 'Cargos',
+            'url' => 'positions',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
@@ -353,28 +353,54 @@ return [
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Products',
+                    'url' => 'products',
+                    'icon' => 'fas fa-fw fa-lock',
                 ],
                 [
                     'text' => 'level_one',
                     'url' => '#',
                     'submenu' => [
                         [
-                            'text' => 'level_two',
-                            'url' => '#',
+                            'text' => 'Inventario',
+                            'url' => 'inventories',
+                            'icon' => 'fas fa-fw fa-lock',
                         ],
                         [
                             'text' => 'level_two',
                             'url' => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'level_three',
-                                    'url' => '#',
+                                    'text' => 'Estudiantes',
+                                    'url' => 'estudiantes',
+                                    'icon' => 'fas fa-fw fa-lock',
+                                ],
+                                [
+                                    'text' => 'Proveedores',
+                                    'url' => 'suppliers',
+                                    'icon' => 'fas fa-fw fa-lock',
+                                ],
+                                [
+                                    'text' => 'Clientes',
+                                    'url' => 'clients',
+                                    'icon' => 'fas fa-fw fa-lock',
                                 ],
                                 [
                                     'text' => 'level_three',
                                     'url' => '#',
+                                    'submenu' => 
+                                    [
+                                        [
+                                            'text' => 'Registro',
+                                            'url' => 'registros',
+                                            'icon' => 'fas fa-fw fa-lock',
+                                        ],
+                                        [
+                                            'text' => 'Reservaciones',
+                                            'url' => 'appointments',
+                                            'icon' => 'fas fa-fw fa-lock',
+                                        ],
+                                    ],
                                 ],
                             ],
                         ],
