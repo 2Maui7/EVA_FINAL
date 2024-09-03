@@ -323,29 +323,20 @@ return [
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
+
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
+            'text' => 'Estudiantes',
+            'url' => 'students',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Empleado',
-            'url' => 'employees',
+            'text' => 'Cursos',
+            'url' => 'courses',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Departamentos',
-            'url' => 'departments',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text' => 'Cargos',
-            'url' => 'positions',
+            'text' => 'Inscripciones',
+            'url' => 'inscriptions',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
@@ -358,12 +349,62 @@ return [
                     'icon' => 'fas fa-fw fa-lock',
                 ],
                 [
+                    'text' => 'profile',
+                    'url' => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-user',
+                ],
+                [
+                    'text' => 'change_password',
+                    'url' => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+                [
+                    'text' => 'Empleado',
+                    'url' => 'employees',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+                [
+                    'text' => 'Departamentos',
+                    'url' => 'departments',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+                [
+                    'text' => 'Cargos',
+                    'url' => 'positions',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+                [
                     'text' => 'level_one',
                     'url' => '#',
                     'submenu' => [
                         [
                             'text' => 'Inventario',
                             'url' => 'inventories',
+                            'icon' => 'fas fa-fw fa-lock',
+                        ],
+                        [
+                            'text' => 'profile',
+                            'url' => 'admin/settings',
+                            'icon' => 'fas fa-fw fa-user',
+                        ],
+                        [
+                            'text' => 'change_password',
+                            'url' => 'admin/settings',
+                            'icon' => 'fas fa-fw fa-lock',
+                        ],
+                        [
+                            'text' => 'Empleado',
+                            'url' => 'employees',
+                            'icon' => 'fas fa-fw fa-lock',
+                        ],
+                        [
+                            'text' => 'Departamentos',
+                            'url' => 'departments',
+                            'icon' => 'fas fa-fw fa-lock',
+                        ],
+                        [
+                            'text' => 'Cargos',
+                            'url' => 'positions',
                             'icon' => 'fas fa-fw fa-lock',
                         ],
                         [
@@ -388,7 +429,7 @@ return [
                                 [
                                     'text' => 'level_three',
                                     'url' => '#',
-                                    'submenu' => 
+                                    'submenu' =>
                                     [
                                         [
                                             'text' => 'Registro',

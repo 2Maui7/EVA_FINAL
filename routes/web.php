@@ -12,6 +12,9 @@ use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\InscriptionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,3 +43,6 @@ Route::resource('clients', ClientController::class);
 Route::resource('departments', DepartmentController::class);
 Route::resource('positions', PositionController::class);
 Route::resource('employees', EmployeeController::class);
+Route::resource('students', StudentController::class);
+Route::resource('courses', CourseController::class);
+Route::resource('inscriptions', InscriptionController::class);
