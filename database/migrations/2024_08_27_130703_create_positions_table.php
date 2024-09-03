@@ -27,3 +27,11 @@ return new class extends Migration
         Schema::dropIfExists('positions');
     }
 };
+/*
+Schema::create('positions', function (Blueprint $table) {
+    $table->id();
+    $table->string('title')->nullable();
+    $table->text('description')->nullable();
+    $table->timestamps();
+});
+*/
